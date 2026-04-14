@@ -27,6 +27,21 @@ Small graphify-based wiki for building a public, Git-managed development knowled
 - Treat `notes/` as the primary asset in Git history.
 - Regenerate `graphify-out/` after meaningful note updates, but keep note changes and graph regeneration in separate commits.
 
+Recommended local loop:
+
+```bash
+uv run python scripts/wiki_status.py
+uv run python scripts/rebuild_wiki_graph.py
+uv run python scripts/wiki_status.py
+```
+
+Recommended two-commit rhythm:
+
+1. Update `notes/`, `notes/hubs/`, or `notes/meta/`
+2. Commit those source changes with `notes:`, `hubs:`, or `meta:`
+3. Rebuild graph outputs
+4. Commit `graphify-out/` changes with `graph:`
+
 Recommended commit prefixes:
 
 - `notes:` add or revise knowledge notes
@@ -41,6 +56,7 @@ This repository is managed with `uv`.
 
 ```bash
 uv sync
+uv run python scripts/wiki_status.py
 uv run python scripts/rebuild_wiki_graph.py
 ```
 

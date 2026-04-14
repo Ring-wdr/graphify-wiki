@@ -12,6 +12,7 @@ from graphify.cluster import cluster, score_all
 from graphify.detect import detect
 from graphify.export import to_html, to_json
 from graphify.report import generate
+from graphify.report import _safe_community_name
 from graphify.wiki import _community_article, _god_node_article, _index_md, _safe_filename
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -161,6 +162,7 @@ def write_wiki(graph, communities: dict[int, list[str]], labels: dict[int, str],
         label = labels.get(cid, f"Community {cid}")
         article = _community_article(graph, cid, nodes, label, labels, cohesion.get(cid))
         (WIKI_DIR / f"{_safe_filename(label)}.md").write_text(article, encoding="utf-8")
+        (WIKI_DIR / f"_COMMUNITY_{_safe_community_name(label)}.md").write_text(article, encoding="utf-8")
 
     for node in gods:
         node_id = node.get("id")

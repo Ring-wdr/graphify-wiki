@@ -22,8 +22,30 @@
 1. 원자 노트 작성 또는 수정
 2. 관련 허브와 연관 링크 갱신
 3. `notes:` 또는 `hubs:` 커밋
-4. `uv run graphify .` 실행
-5. `graph:` 커밋
+4. `uv run python scripts/wiki_status.py`로 현재 상태 확인
+5. `uv run python scripts/rebuild_wiki_graph.py` 실행
+6. `uv run python scripts/wiki_status.py`로 그래프 산출물만 바뀌었는지 확인
+7. `graph:` 커밋
+
+## 빠른 점검 명령
+
+```bash
+uv run python scripts/wiki_status.py
+```
+
+이 명령은 아래를 짧게 보여 준다.
+
+- `notes/` 변경 수
+- `graphify-out/` 변경 수
+- `README.md`, `scripts/` 같은 운영 변경 수
+- 노트보다 그래프 산출물이 오래됐는지 여부
+
+## 권장 커밋 분리 예시
+
+1. 새 노트 작성 후 `notes:` 커밋
+2. 그래프 재생성 후 `graph:` 커밋
+
+이 순서를 지키면 Git log만 봐도 지식 자체의 변화와 파생 산출물 갱신을 구분하기 쉽다.
 
 ## 공개 저장소 규칙
 
