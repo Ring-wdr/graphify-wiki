@@ -1,67 +1,75 @@
-# Graph Report - .  (2026-04-14)
+# Graph Report - notes  (2026-04-15)
 
 ## Corpus Check
-- Corpus is ~91 words - fits in a single context window. You may not need a graph.
+- Corpus is ~2,416 words - fits in a single context window. You may not need a graph.
 
 ## Summary
-- 10 nodes · 11 edges · 3 communities detected
-- Extraction: 55% EXTRACTED · 45% INFERRED · 0% AMBIGUOUS · INFERRED: 5 edges (avg confidence: 0.9)
+- 18 nodes · 46 edges · 4 communities detected
+- Extraction: 100% EXTRACTED · 0% INFERRED · 0% AMBIGUOUS
 - Token cost: 0 input · 0 output
 
 ## Community Hubs (Navigation)
-- [[_COMMUNITY_Workspace Purpose|Workspace Purpose]]
-- [[_COMMUNITY_Graph Outputs|Graph Outputs]]
-- [[_COMMUNITY_Note Growth|Note Growth]]
+- [[_COMMUNITY_Debugging & Operations|Debugging & Operations]]
+- [[_COMMUNITY_Version Control|Version Control]]
+- [[_COMMUNITY_Wiki Operations|Wiki Operations]]
+- [[_COMMUNITY_Inbox Notes|Inbox Notes]]
 
 ## God Nodes (most connected - your core abstractions)
-1. `Graphify Wiki Overview` - 9 edges
-2. `GRAPH_REPORT.md` - 2 edges
-3. `graph.json` - 2 edges
-4. `Notes Folder Initial State` - 2 edges
-5. `Future Topic Notes` - 2 edges
-6. `graphify` - 1 edges
-7. `Knowledge Graph Workspace` - 1 edges
-8. `Core Concepts and Connections` - 1 edges
-9. `graph.html` - 1 edges
-10. `Community Structure` - 1 edges
+1. `개발 위키 인덱스` - 16 edges
+2. `재현 우선 디버깅` - 7 edges
+3. `디버깅과 운영 허브` - 7 edges
+4. `버전관리와 협업 허브` - 7 edges
+5. `API 멱등성 기초` - 6 edges
+6. `로그와 메트릭과 트레이싱` - 6 edges
+7. `롤포워드와 롤백` - 6 edges
+8. `Git 충돌 해결 체크리스트` - 6 edges
+9. `Python asyncio 취소 처리` - 5 edges
+10. `Postgres 인덱스 선택도` - 5 edges
 
 ## Surprising Connections (you probably didn't know these)
-- `Graphify Wiki Overview` --references--> `GRAPH_REPORT.md`  [EXTRACTED]
-  notes/graphify-wiki-overview.md → notes/graphify-wiki-overview.md  _Bridges community 0 → community 1_
-- `Graphify Wiki Overview` --references--> `Notes Folder Initial State`  [EXTRACTED]
-  notes/graphify-wiki-overview.md → notes/graphify-wiki-overview.md  _Bridges community 0 → community 2_
-
-## Hyperedges (group relationships)
-- **Graphify Output Bundle** — graph_html, graph_report_md, graph_json [INFERRED 0.94]
+- `개발 위키 인덱스` --references--> `API 멱등성 기초`  [EXTRACTED]
+  notes/hubs/development-wiki-index.md → notes/dev/architecture/api-idempotency-basics.md
+- `개발 위키 인덱스` --references--> `Python asyncio 취소 처리`  [EXTRACTED]
+  notes/hubs/development-wiki-index.md → notes/dev/backend-runtime/python-asyncio-cancellation.md
+- `개발 위키 인덱스` --references--> `Postgres 인덱스 선택도`  [EXTRACTED]
+  notes/hubs/development-wiki-index.md → notes/dev/database/postgres-index-selectivity.md
+- `개발 위키 인덱스` --references--> `로그와 메트릭과 트레이싱`  [EXTRACTED]
+  notes/hubs/development-wiki-index.md → notes/dev/debugging/logging-metrics-tracing.md
+- `재현 우선 디버깅` --references--> `Git 충돌 해결 체크리스트`  [EXTRACTED]
+  notes/dev/debugging/repro-first-debugging.md → notes/dev/version-control/git-conflict-resolution-checklist.md
 
 ## Communities
 
-### Community 0 - "Workspace Purpose"
-Cohesion: 0.33
-Nodes (6): Community Structure, Core Concepts and Connections, graph.html, graphify, Graphify Wiki Overview, Knowledge Graph Workspace
+### Community 0 - "Debugging & Operations"
+Cohesion: 0.76
+Nodes (7): API 멱등성 기초, Python asyncio 취소 처리, Postgres 인덱스 선택도, 로그와 메트릭과 트레이싱, 재현 우선 디버깅, 롤포워드와 롤백, 디버깅과 운영 허브
 
-### Community 1 - "Graph Outputs"
-Cohesion: 1.0
-Nodes (2): graph.json, GRAPH_REPORT.md
+### Community 1 - "Version Control"
+Cohesion: 0.73
+Nodes (6): 코드 리뷰를 위한 커밋 크기, Git 체리픽과 리버트, Git 충돌 해결 체크리스트, Git 리베이스 기초, 버전관리와 협업 허브, Git Knowledge Workflow
 
-### Community 2 - "Note Growth"
+### Community 2 - "Wiki Operations"
+Cohesion: 0.5
+Nodes (4): 개발 위키 인덱스, Atomic Note Template, Graph Output Lifecycle, Graphify Wiki Overview
+
+### Community 3 - "Inbox Notes"
 Cohesion: 1.0
-Nodes (2): Future Topic Notes, Notes Folder Initial State
+Nodes (1): Inbox
 
 ## Knowledge Gaps
-- **5 isolated node(s):** `graphify`, `Knowledge Graph Workspace`, `Core Concepts and Connections`, `graph.html`, `Community Structure`
+- **4 isolated node(s):** `Inbox`, `Atomic Note Template`, `Graph Output Lifecycle`, `Graphify Wiki Overview`
   These have ≤1 connection - possible missing edges or undocumented components.
-- **Thin community `Graph Outputs`** (2 nodes): `graph.json`, `GRAPH_REPORT.md`
-  Too small to be a meaningful cluster - may be noise or needs more connections extracted.
-- **Thin community `Note Growth`** (2 nodes): `Future Topic Notes`, `Notes Folder Initial State`
+- **Thin community `Inbox Notes`** (1 nodes): `Inbox`
   Too small to be a meaningful cluster - may be noise or needs more connections extracted.
 
 ## Suggested Questions
 _Questions this graph is uniquely positioned to answer:_
 
-- **Why does `Graphify Wiki Overview` connect `Workspace Purpose` to `Graph Outputs`, `Note Growth`?**
-  _High betweenness centrality (0.944) - this node is a cross-community bridge._
-- **Are the 3 inferred relationships involving `Graphify Wiki Overview` (e.g. with `Knowledge Graph Workspace` and `Core Concepts and Connections`) actually correct?**
-  _`Graphify Wiki Overview` has 3 INFERRED edges - model-reasoned connections that need verification._
-- **What connects `graphify`, `Knowledge Graph Workspace`, `Core Concepts and Connections` to the rest of the system?**
-  _5 weakly-connected nodes found - possible documentation gaps or missing edges._
+- **Why does `개발 위키 인덱스` connect `Wiki Operations` to `Debugging & Operations`, `Version Control`?**
+  _High betweenness centrality (0.541) - this node is a cross-community bridge._
+- **Why does `재현 우선 디버깅` connect `Debugging & Operations` to `Version Control`, `Wiki Operations`?**
+  _High betweenness centrality (0.033) - this node is a cross-community bridge._
+- **Why does `버전관리와 협업 허브` connect `Version Control` to `Debugging & Operations`, `Wiki Operations`?**
+  _High betweenness centrality (0.021) - this node is a cross-community bridge._
+- **What connects `Inbox`, `Atomic Note Template`, `Graph Output Lifecycle` to the rest of the system?**
+  _4 weakly-connected nodes found - possible documentation gaps or missing edges._

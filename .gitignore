@@ -1,5 +1,6 @@
 .codex/
 AGENTS.md
+.obsidian/
 .venv/
 graphify-out/memory/
 graphify-out/cache/
