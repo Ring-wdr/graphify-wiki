@@ -14,6 +14,15 @@ Small graphify-based wiki prototype for turning notes into a navigable knowledge
 - `graphify-out/GRAPH_REPORT.md`: graph audit report
 - `graphify-out/graph.json`: exported graph data
 
+## Development
+
+This repository is managed with `uv`.
+
+```bash
+uv sync
+uv run graphify .
+```
+
 ## Publishing
 
 GitHub Pages is deployed by Actions on pushes to `main`.

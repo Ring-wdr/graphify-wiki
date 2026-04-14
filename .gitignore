@@ -1,5 +1,6 @@
 .codex/
 AGENTS.md
+.venv/
 graphify-out/memory/
 graphify-out/cache/
 .graphify*
