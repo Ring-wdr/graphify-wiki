@@ -1,0 +1,302 @@
+{
+  "directed": false,
+  "multigraph": false,
+  "graph": {
+    "hyperedges": [
+      {
+        "id": "graphify_outputs_bundle",
+        "label": "Graphify Output Bundle",
+        "nodes": [
+          "graph_html",
+          "graph_report_md",
+          "graph_json"
+        ],
+        "relation": "form",
+        "confidence": "INFERRED",
+        "confidence_score": 0.94,
+        "source_file": "notes/graphify-wiki-overview.md"
+      }
+    ]
+  },
+  "nodes": [
+    {
+      "label": "Graphify Wiki Overview",
+      "file_type": "document",
+      "source_file": "notes/graphify-wiki-overview.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "graphify_wiki_overview",
+      "community": 0,
+      "norm_label": "graphify wiki overview"
+    },
+    {
+      "label": "graphify",
+      "file_type": "document",
+      "source_file": "notes/graphify-wiki-overview.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "graphify_tool",
+      "community": 0,
+      "norm_label": "graphify"
+    },
+    {
+      "label": "Knowledge Graph Workspace",
+      "file_type": "document",
+      "source_file": "notes/graphify-wiki-overview.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "knowledge_graph_workspace",
+      "community": 0,
+      "norm_label": "knowledge graph workspace"
+    },
+    {
+      "label": "Core Concepts and Connections",
+      "file_type": "document",
+      "source_file": "notes/graphify-wiki-overview.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "core_concepts_and_connections",
+      "community": 0,
+      "norm_label": "core concepts and connections"
+    },
+    {
+      "label": "graph.html",
+      "file_type": "document",
+      "source_file": "notes/graphify-wiki-overview.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "graph_html",
+      "community": 0,
+      "norm_label": "graph.html"
+    },
+    {
+      "label": "GRAPH_REPORT.md",
+      "file_type": "document",
+      "source_file": "notes/graphify-wiki-overview.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "graph_report_md",
+      "community": 1,
+      "norm_label": "graph_report.md"
+    },
+    {
+      "label": "graph.json",
+      "file_type": "document",
+      "source_file": "notes/graphify-wiki-overview.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "graph_json",
+      "community": 1,
+      "norm_label": "graph.json"
+    },
+    {
+      "label": "Notes Folder Initial State",
+      "file_type": "document",
+      "source_file": "notes/graphify-wiki-overview.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "notes_folder_initial_state",
+      "community": 2,
+      "norm_label": "notes folder initial state"
+    },
+    {
+      "label": "Future Topic Notes",
+      "file_type": "document",
+      "source_file": "notes/graphify-wiki-overview.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "future_topic_notes",
+      "community": 2,
+      "norm_label": "future topic notes"
+    },
+    {
+      "label": "Community Structure",
+      "file_type": "document",
+      "source_file": "notes/graphify-wiki-overview.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "community_structure",
+      "community": 0,
+      "norm_label": "community structure"
+    }
+  ],
+  "links": [
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "notes/graphify-wiki-overview.md",
+      "source_location": null,
+      "weight": 1.0,
+      "_src": "graphify_wiki_overview",
+      "_tgt": "graphify_tool",
+      "source": "graphify_wiki_overview",
+      "target": "graphify_tool"
+    },
+    {
+      "relation": "rationale_for",
+      "confidence": "INFERRED",
+      "confidence_score": 0.95,
+      "source_file": "notes/graphify-wiki-overview.md",
+      "source_location": null,
+      "weight": 1.0,
+      "_src": "graphify_wiki_overview",
+      "_tgt": "knowledge_graph_workspace",
+      "source": "graphify_wiki_overview",
+      "target": "knowledge_graph_workspace"
+    },
+    {
+      "relation": "rationale_for",
+      "confidence": "INFERRED",
+      "confidence_score": 0.9,
+      "source_file": "notes/graphify-wiki-overview.md",
+      "source_location": null,
+      "weight": 1.0,
+      "_src": "graphify_wiki_overview",
+      "_tgt": "core_concepts_and_connections",
+      "source": "graphify_wiki_overview",
+      "target": "core_concepts_and_connections"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "notes/graphify-wiki-overview.md",
+      "source_location": null,
+      "weight": 1.0,
+      "_src": "graphify_wiki_overview",
+      "_tgt": "graph_html",
+      "source": "graphify_wiki_overview",
+      "target": "graph_html"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "notes/graphify-wiki-overview.md",
+      "source_location": null,
+      "weight": 1.0,
+      "_src": "graphify_wiki_overview",
+      "_tgt": "graph_report_md",
+      "source": "graphify_wiki_overview",
+      "target": "graph_report_md"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "notes/graphify-wiki-overview.md",
+      "source_location": null,
+      "weight": 1.0,
+      "_src": "graphify_wiki_overview",
+      "_tgt": "graph_json",
+      "source": "graphify_wiki_overview",
+      "target": "graph_json"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "notes/graphify-wiki-overview.md",
+      "source_location": null,
+      "weight": 1.0,
+      "_src": "graphify_wiki_overview",
+      "_tgt": "notes_folder_initial_state",
+      "source": "graphify_wiki_overview",
+      "target": "notes_folder_initial_state"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "notes/graphify-wiki-overview.md",
+      "source_location": null,
+      "weight": 1.0,
+      "_src": "graphify_wiki_overview",
+      "_tgt": "future_topic_notes",
+      "source": "graphify_wiki_overview",
+      "target": "future_topic_notes"
+    },
+    {
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.86,
+      "source_file": "notes/graphify-wiki-overview.md",
+      "source_location": null,
+      "weight": 1.0,
+      "_src": "graphify_wiki_overview",
+      "_tgt": "community_structure",
+      "source": "graphify_wiki_overview",
+      "target": "community_structure"
+    },
+    {
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.9,
+      "source_file": "notes/graphify-wiki-overview.md",
+      "source_location": null,
+      "weight": 1.0,
+      "_src": "graph_report_md",
+      "_tgt": "graph_json",
+      "source": "graph_report_md",
+      "target": "graph_json"
+    },
+    {
+      "relation": "rationale_for",
+      "confidence": "INFERRED",
+      "confidence_score": 0.88,
+      "source_file": "notes/graphify-wiki-overview.md",
+      "source_location": null,
+      "weight": 1.0,
+      "_src": "notes_folder_initial_state",
+      "_tgt": "future_topic_notes",
+      "source": "notes_folder_initial_state",
+      "target": "future_topic_notes"
+    }
+  ],
+  "hyperedges": [
+    {
+      "id": "graphify_outputs_bundle",
+      "label": "Graphify Output Bundle",
+      "nodes": [
+        "graph_html",
+        "graph_report_md",
+        "graph_json"
+      ],
+      "relation": "form",
+      "confidence": "INFERRED",
+      "confidence_score": 0.94,
+      "source_file": "notes/graphify-wiki-overview.md"
+    }
+  ]
+}
