@@ -9,7 +9,7 @@
 - **코드 리뷰를 위한 커밋 크기** (5 connections) — `notes/dev/tooling/code-review-commit-sizing.md`
 - **Git 체리픽과 리버트** (5 connections) — `notes/dev/version-control/git-cherry-pick-vs-revert.md`
 - **Git 리베이스 기초** (5 connections) — `notes/dev/version-control/git-rebase-basics.md`
-- **Git Knowledge Workflow** (3 connections) — `notes/meta/git-knowledge-workflow.md`
+- **Git Knowledge Workflow** (4 connections) — `notes/meta/git-knowledge-workflow.md`
 
 ## Relationships
 
@@ -26,7 +26,7 @@
 
 ## Audit Trail
 
-- EXTRACTED: 31 (100%)
+- EXTRACTED: 32 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

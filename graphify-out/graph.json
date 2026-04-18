@@ -108,6 +108,19 @@
       "norm_label": "\u1105\u1169\u11af\u1111\u1169\u110b\u116f\u1103\u1173\u110b\u116a \u1105\u1169\u11af\u1107\u1162\u11a8"
     },
     {
+      "label": "Windows\uc5d0\uc11c KMP Compose\uc6a9 JDK 21 \uc6b4\uc601",
+      "file_type": "document",
+      "source_file": "notes/dev/tooling/windows-jdk-21-for-kmp-compose.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "notes_dev_tooling_windows_jdk_21_for_kmp_compose",
+      "community": 2,
+      "norm_label": "windows\u110b\u1166\u1109\u1165 kmp compose\u110b\u116d\u11bc jdk 21 \u110b\u116e\u11ab\u110b\u1167\u11bc"
+    },
+    {
       "label": "Git \uccb4\ub9ac\ud53d\uacfc \ub9ac\ubc84\ud2b8",
       "file_type": "document",
       "source_file": "notes/dev/version-control/git-cherry-pick-vs-revert.md",
@@ -635,6 +648,42 @@
       "_tgt": "notes_dev_tooling_deployment_rollforward_vs_rollback",
       "source": "notes_dev_tooling_deployment_rollforward_vs_rollback",
       "target": "notes_hubs_development_wiki_index"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "notes/dev/tooling/windows-jdk-21-for-kmp-compose.md",
+      "source_location": null,
+      "weight": 1.0,
+      "_src": "notes_dev_tooling_windows_jdk_21_for_kmp_compose",
+      "_tgt": "notes_hubs_development_wiki_index",
+      "source": "notes_dev_tooling_windows_jdk_21_for_kmp_compose",
+      "target": "notes_hubs_development_wiki_index"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "notes/dev/tooling/windows-jdk-21-for-kmp-compose.md",
+      "source_location": null,
+      "weight": 1.0,
+      "_src": "notes_dev_tooling_windows_jdk_21_for_kmp_compose",
+      "_tgt": "notes_meta_graphify_wiki_overview",
+      "source": "notes_dev_tooling_windows_jdk_21_for_kmp_compose",
+      "target": "notes_meta_graphify_wiki_overview"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "notes/dev/tooling/windows-jdk-21-for-kmp-compose.md",
+      "source_location": null,
+      "weight": 1.0,
+      "_src": "notes_dev_tooling_windows_jdk_21_for_kmp_compose",
+      "_tgt": "notes_meta_git_knowledge_workflow",
+      "source": "notes_dev_tooling_windows_jdk_21_for_kmp_compose",
+      "target": "notes_meta_git_knowledge_workflow"
     },
     {
       "relation": "references",

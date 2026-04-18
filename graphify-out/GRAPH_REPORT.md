@@ -1,10 +1,10 @@
 # Graph Report - notes  (2026-04-18)
 
 ## Corpus Check
-- Corpus is ~3,200 words - fits in a single context window. You may not need a graph.
+- Corpus is ~3,498 words - fits in a single context window. You may not need a graph.
 
 ## Summary
-- 19 nodes · 48 edges · 4 communities detected
+- 20 nodes · 51 edges · 4 communities detected
 - Extraction: 100% EXTRACTED · 0% INFERRED · 0% AMBIGUOUS
 - Token cost: 0 input · 0 output
 
@@ -15,7 +15,7 @@
 - [[_COMMUNITY_Inbox Notes|Inbox Notes]]
 
 ## God Nodes (most connected - your core abstractions)
-1. `개발 위키 인덱스` - 16 edges
+1. `개발 위키 인덱스` - 17 edges
 2. `재현 우선 디버깅` - 8 edges
 3. `로그와 메트릭과 트레이싱` - 7 edges
 4. `디버깅과 운영 허브` - 7 edges
@@ -50,14 +50,14 @@ Nodes (6): 코드 리뷰를 위한 커밋 크기, Git 체리픽과 리버트, Gi
 
 ### Community 2 - "Wiki Operations"
 Cohesion: 0.5
-Nodes (4): 개발 위키 인덱스, Atomic Note Template, Graph Output Lifecycle, Graphify Wiki Overview
+Nodes (5): Windows에서 KMP Compose용 JDK 21 운영, 개발 위키 인덱스, Atomic Note Template, Graph Output Lifecycle, Graphify Wiki Overview
 
 ### Community 3 - "Inbox Notes"
 Cohesion: 1.0
 Nodes (1): Inbox
 
 ## Knowledge Gaps
-- **4 isolated node(s):** `Inbox`, `Atomic Note Template`, `Graph Output Lifecycle`, `Graphify Wiki Overview`
+- **3 isolated node(s):** `Inbox`, `Atomic Note Template`, `Graph Output Lifecycle`
   These have ≤1 connection - possible missing edges or undocumented components.
 - **Thin community `Inbox Notes`** (1 nodes): `Inbox`
   Too small to be a meaningful cluster - may be noise or needs more connections extracted.
@@ -66,10 +66,10 @@ Nodes (1): Inbox
 _Questions this graph is uniquely positioned to answer:_
 
 - **Why does `개발 위키 인덱스` connect `Wiki Operations` to `Debugging & Operations`, `Version Control`?**
-  _High betweenness centrality (0.514) - this node is a cross-community bridge._
+  _High betweenness centrality (0.539) - this node is a cross-community bridge._
 - **Why does `재현 우선 디버깅` connect `Debugging & Operations` to `Version Control`, `Wiki Operations`?**
-  _High betweenness centrality (0.086) - this node is a cross-community bridge._
+  _High betweenness centrality (0.080) - this node is a cross-community bridge._
 - **Why does `로그와 메트릭과 트레이싱` connect `Debugging & Operations` to `Wiki Operations`?**
-  _High betweenness centrality (0.045) - this node is a cross-community bridge._
+  _High betweenness centrality (0.043) - this node is a cross-community bridge._
 - **What connects `Inbox`, `Atomic Note Template`, `Graph Output Lifecycle` to the rest of the system?**
-  _4 weakly-connected nodes found - possible documentation gaps or missing edges._
+  _3 weakly-connected nodes found - possible documentation gaps or missing edges._
