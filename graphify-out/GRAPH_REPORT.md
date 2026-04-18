@@ -1,10 +1,10 @@
-# Graph Report - notes  (2026-04-15)
+# Graph Report - notes  (2026-04-18)
 
 ## Corpus Check
-- Corpus is ~2,502 words - fits in a single context window. You may not need a graph.
+- Corpus is ~3,200 words - fits in a single context window. You may not need a graph.
 
 ## Summary
-- 18 nodes · 46 edges · 4 communities detected
+- 19 nodes · 48 edges · 4 communities detected
 - Extraction: 100% EXTRACTED · 0% INFERRED · 0% AMBIGUOUS
 - Token cost: 0 input · 0 output
 
@@ -16,11 +16,11 @@
 
 ## God Nodes (most connected - your core abstractions)
 1. `개발 위키 인덱스` - 16 edges
-2. `재현 우선 디버깅` - 7 edges
-3. `디버깅과 운영 허브` - 7 edges
-4. `버전관리와 협업 허브` - 7 edges
-5. `API 멱등성 기초` - 6 edges
-6. `로그와 메트릭과 트레이싱` - 6 edges
+2. `재현 우선 디버깅` - 8 edges
+3. `로그와 메트릭과 트레이싱` - 7 edges
+4. `디버깅과 운영 허브` - 7 edges
+5. `버전관리와 협업 허브` - 7 edges
+6. `API 멱등성 기초` - 6 edges
 7. `롤포워드와 롤백` - 6 edges
 8. `Git 충돌 해결 체크리스트` - 6 edges
 9. `Python asyncio 취소 처리` - 5 edges
@@ -33,16 +33,16 @@
   notes/hubs/development-wiki-index.md → notes/dev/backend-runtime/python-asyncio-cancellation.md
 - `개발 위키 인덱스` --references--> `Postgres 인덱스 선택도`  [EXTRACTED]
   notes/hubs/development-wiki-index.md → notes/dev/database/postgres-index-selectivity.md
-- `개발 위키 인덱스` --references--> `로그와 메트릭과 트레이싱`  [EXTRACTED]
-  notes/hubs/development-wiki-index.md → notes/dev/debugging/logging-metrics-tracing.md
-- `재현 우선 디버깅` --references--> `Git 충돌 해결 체크리스트`  [EXTRACTED]
-  notes/dev/debugging/repro-first-debugging.md → notes/dev/version-control/git-conflict-resolution-checklist.md
+- `로컬 노트 코파일럿 RN Expo 트러블슈팅` --references--> `로그와 메트릭과 트레이싱`  [EXTRACTED]
+  notes/dev/debugging/local-note-copilot-rn-expo-troubleshooting.md → notes/dev/debugging/logging-metrics-tracing.md
+- `로컬 노트 코파일럿 RN Expo 트러블슈팅` --references--> `재현 우선 디버깅`  [EXTRACTED]
+  notes/dev/debugging/local-note-copilot-rn-expo-troubleshooting.md → notes/dev/debugging/repro-first-debugging.md
 
 ## Communities
 
 ### Community 0 - "Debugging & Operations"
-Cohesion: 0.76
-Nodes (7): API 멱등성 기초, Python asyncio 취소 처리, Postgres 인덱스 선택도, 로그와 메트릭과 트레이싱, 재현 우선 디버깅, 롤포워드와 롤백, 디버깅과 운영 허브
+Cohesion: 0.64
+Nodes (8): API 멱등성 기초, Python asyncio 취소 처리, Postgres 인덱스 선택도, 로컬 노트 코파일럿 RN Expo 트러블슈팅, 로그와 메트릭과 트레이싱, 재현 우선 디버깅, 롤포워드와 롤백, 디버깅과 운영 허브
 
 ### Community 1 - "Version Control"
 Cohesion: 0.73
@@ -66,10 +66,10 @@ Nodes (1): Inbox
 _Questions this graph is uniquely positioned to answer:_
 
 - **Why does `개발 위키 인덱스` connect `Wiki Operations` to `Debugging & Operations`, `Version Control`?**
-  _High betweenness centrality (0.541) - this node is a cross-community bridge._
+  _High betweenness centrality (0.514) - this node is a cross-community bridge._
 - **Why does `재현 우선 디버깅` connect `Debugging & Operations` to `Version Control`, `Wiki Operations`?**
-  _High betweenness centrality (0.033) - this node is a cross-community bridge._
-- **Why does `버전관리와 협업 허브` connect `Version Control` to `Debugging & Operations`, `Wiki Operations`?**
-  _High betweenness centrality (0.021) - this node is a cross-community bridge._
+  _High betweenness centrality (0.086) - this node is a cross-community bridge._
+- **Why does `로그와 메트릭과 트레이싱` connect `Debugging & Operations` to `Wiki Operations`?**
+  _High betweenness centrality (0.045) - this node is a cross-community bridge._
 - **What connects `Inbox`, `Atomic Note Template`, `Graph Output Lifecycle` to the rest of the system?**
   _4 weakly-connected nodes found - possible documentation gaps or missing edges._

@@ -43,6 +43,19 @@
       "norm_label": "postgres \u110b\u1175\u11ab\u1103\u1166\u11a8\u1109\u1173 \u1109\u1165\u11ab\u1110\u1162\u11a8\u1103\u1169"
     },
     {
+      "label": "\ub85c\uceec \ub178\ud2b8 \ucf54\ud30c\uc77c\ub7ff RN Expo \ud2b8\ub7ec\ube14\uc288\ud305",
+      "file_type": "document",
+      "source_file": "notes/dev/debugging/local-note-copilot-rn-expo-troubleshooting.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "notes_dev_debugging_local_note_copilot_rn_expo_troubleshooting",
+      "community": 0,
+      "norm_label": "\u1105\u1169\u110f\u1165\u11af \u1102\u1169\u1110\u1173 \u110f\u1169\u1111\u1161\u110b\u1175\u11af\u1105\u1165\u11ba rn expo \u1110\u1173\u1105\u1165\u1107\u1173\u11af\u1109\u1172\u1110\u1175\u11bc"
+    },
+    {
       "label": "\ub85c\uadf8\uc640 \uba54\ud2b8\ub9ad\uacfc \ud2b8\ub808\uc774\uc2f1",
       "file_type": "document",
       "source_file": "notes/dev/debugging/logging-metrics-tracing.md",
@@ -406,6 +419,30 @@
       "_tgt": "notes_dev_database_postgres_index_selectivity",
       "source": "notes_dev_database_postgres_index_selectivity",
       "target": "notes_hubs_development_wiki_index"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "notes/dev/debugging/local-note-copilot-rn-expo-troubleshooting.md",
+      "source_location": null,
+      "weight": 1.0,
+      "_src": "notes_dev_debugging_local_note_copilot_rn_expo_troubleshooting",
+      "_tgt": "notes_dev_debugging_logging_metrics_tracing",
+      "source": "notes_dev_debugging_local_note_copilot_rn_expo_troubleshooting",
+      "target": "notes_dev_debugging_logging_metrics_tracing"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "notes/dev/debugging/local-note-copilot-rn-expo-troubleshooting.md",
+      "source_location": null,
+      "weight": 1.0,
+      "_src": "notes_dev_debugging_local_note_copilot_rn_expo_troubleshooting",
+      "_tgt": "notes_dev_debugging_repro_first_debugging",
+      "source": "notes_dev_debugging_local_note_copilot_rn_expo_troubleshooting",
+      "target": "notes_dev_debugging_repro_first_debugging"
     },
     {
       "relation": "references",
