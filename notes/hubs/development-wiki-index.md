@@ -15,7 +15,7 @@
 - 백엔드 런타임: [Python asyncio 취소 처리](../dev/backend-runtime/python-asyncio-cancellation.md)
 - 데이터베이스: [Postgres 인덱스 선택도](../dev/database/postgres-index-selectivity.md)
 - 아키텍처: [API 멱등성 기초](../dev/architecture/api-idempotency-basics.md)
-- 툴링과 배포: [롤포워드와 롤백](../dev/tooling/deployment-rollforward-vs-rollback.md), [코드 리뷰를 위한 커밋 크기](../dev/tooling/code-review-commit-sizing.md), [Windows에서 KMP Compose용 JDK 21 운영](../dev/tooling/windows-jdk-21-for-kmp-compose.md)
+- 툴링과 배포: [롤포워드와 롤백](../dev/tooling/deployment-rollforward-vs-rollback.md), [코드 리뷰를 위한 커밋 크기](../dev/tooling/code-review-commit-sizing.md), [Windows에서 KMP Compose용 JDK 21 운영](../dev/tooling/windows-jdk-21-for-kmp-compose.md), [KMP Compose 워크트리 로컬 실행 세팅](../dev/tooling/kmp-compose-worktree-local-run-setup.md)
 
 ## 운영 문서
 

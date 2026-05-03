@@ -13,7 +13,7 @@
       "author": null,
       "contributor": null,
       "id": "notes_dev_architecture_api_idempotency_basics",
-      "community": 0,
+      "community": 2,
       "norm_label": "api \u1106\u1167\u11a8\u1103\u1173\u11bc\u1109\u1165\u11bc \u1100\u1175\u110e\u1169"
     },
     {
@@ -26,7 +26,7 @@
       "author": null,
       "contributor": null,
       "id": "notes_dev_backend_runtime_python_asyncio_cancellation",
-      "community": 0,
+      "community": 2,
       "norm_label": "python asyncio \u110e\u1171\u1109\u1169 \u110e\u1165\u1105\u1175"
     },
     {
@@ -39,8 +39,21 @@
       "author": null,
       "contributor": null,
       "id": "notes_dev_database_postgres_index_selectivity",
-      "community": 0,
+      "community": 2,
       "norm_label": "postgres \u110b\u1175\u11ab\u1103\u1166\u11a8\u1109\u1173 \u1109\u1165\u11ab\u1110\u1162\u11a8\u1103\u1169"
+    },
+    {
+      "label": "KMP Compose Workshop \ud504\ub85c\uc81d\ud2b8 \uc0dd\uc131 \uc2dc SQLDelight NPE \ud2b8\ub7ec\ube14\uc288\ud305",
+      "file_type": "document",
+      "source_file": "notes/dev/debugging/kmp-compose-workshop-project-sqldelight-npe.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "notes_dev_debugging_kmp_compose_workshop_project_sqldelight_npe",
+      "community": 1,
+      "norm_label": "kmp compose workshop \u1111\u1173\u1105\u1169\u110c\u1166\u11a8\u1110\u1173 \u1109\u1162\u11bc\u1109\u1165\u11bc \u1109\u1175 sqldelight npe \u1110\u1173\u1105\u1165\u1107\u1173\u11af\u1109\u1172\u1110\u1175\u11bc"
     },
     {
       "label": "\ub85c\uceec \ub178\ud2b8 \ucf54\ud30c\uc77c\ub7ff RN Expo \ud2b8\ub7ec\ube14\uc288\ud305",
@@ -52,7 +65,7 @@
       "author": null,
       "contributor": null,
       "id": "notes_dev_debugging_local_note_copilot_rn_expo_troubleshooting",
-      "community": 0,
+      "community": 2,
       "norm_label": "\u1105\u1169\u110f\u1165\u11af \u1102\u1169\u1110\u1173 \u110f\u1169\u1111\u1161\u110b\u1175\u11af\u1105\u1165\u11ba rn expo \u1110\u1173\u1105\u1165\u1107\u1173\u11af\u1109\u1172\u1110\u1175\u11bc"
     },
     {
@@ -65,7 +78,7 @@
       "author": null,
       "contributor": null,
       "id": "notes_dev_debugging_logging_metrics_tracing",
-      "community": 0,
+      "community": 2,
       "norm_label": "\u1105\u1169\u1100\u1173\u110b\u116a \u1106\u1166\u1110\u1173\u1105\u1175\u11a8\u1100\u116a \u1110\u1173\u1105\u1166\u110b\u1175\u1109\u1175\u11bc"
     },
     {
@@ -78,8 +91,112 @@
       "author": null,
       "contributor": null,
       "id": "notes_dev_debugging_repro_first_debugging",
-      "community": 0,
+      "community": 2,
       "norm_label": "\u110c\u1162\u1112\u1167\u11ab \u110b\u116e\u1109\u1165\u11ab \u1103\u1175\u1107\u1165\u1100\u1175\u11bc"
+    },
+    {
+      "label": "Vibe Danmaku \uc804\ud22c \ud398\uc774\uc2f1\uacfc \ub7f0\ud0c0\uc784 \ud0c0\uc774\ubc0d \ub514\ubc84\uae45",
+      "file_type": "document",
+      "source_file": "notes/dev/debugging/vibe-danmaku-battle-pacing-runtime-debugging.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "notes_dev_debugging_vibe_danmaku_battle_pacing_runtime_debugging",
+      "community": 0,
+      "norm_label": "vibe danmaku \u110c\u1165\u11ab\u1110\u116e \u1111\u1166\u110b\u1175\u1109\u1175\u11bc\u1100\u116a \u1105\u1165\u11ab\u1110\u1161\u110b\u1175\u11b7 \u1110\u1161\u110b\u1175\u1106\u1175\u11bc \u1103\u1175\u1107\u1165\u1100\u1175\u11bc"
+    },
+    {
+      "label": "Vibe Danmaku \uc0dd\uc131 \uc5d0\uc14b\uacfc \ud504\ub9ac\ub85c\ub4dc \ud30c\uc774\ud504\ub77c\uc778",
+      "file_type": "document",
+      "source_file": "notes/dev/debugging/vibe-danmaku-generated-assets-and-preload-pipeline.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "notes_dev_debugging_vibe_danmaku_generated_assets_and_preload_pipeline",
+      "community": 0,
+      "norm_label": "vibe danmaku \u1109\u1162\u11bc\u1109\u1165\u11bc \u110b\u1166\u1109\u1166\u11ba\u1100\u116a \u1111\u1173\u1105\u1175\u1105\u1169\u1103\u1173 \u1111\u1161\u110b\u1175\u1111\u1173\u1105\u1161\u110b\u1175\u11ab"
+    },
+    {
+      "label": "Vibe Danmaku R3F \ubcf4\uc2a4 \ub80c\ub354\ub9c1 \ud2b8\ub7ec\ube14\uc288\ud305",
+      "file_type": "document",
+      "source_file": "notes/dev/debugging/vibe-danmaku-r3f-boss-rendering-troubleshooting.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "notes_dev_debugging_vibe_danmaku_r3f_boss_rendering_troubleshooting",
+      "community": 0,
+      "norm_label": "vibe danmaku r3f \u1107\u1169\u1109\u1173 \u1105\u1166\u11ab\u1103\u1165\u1105\u1175\u11bc \u1110\u1173\u1105\u1165\u1107\u1173\u11af\u1109\u1172\u1110\u1175\u11bc"
+    },
+    {
+      "label": "Vibe Danmaku \uc9e7\uc740 \uc138\ub85c \ud654\uba74\uacfc \uba54\ub274 UX",
+      "file_type": "document",
+      "source_file": "notes/dev/debugging/vibe-danmaku-responsive-menu-ux.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "notes_dev_debugging_vibe_danmaku_responsive_menu_ux",
+      "community": 0,
+      "norm_label": "vibe danmaku \u110d\u1161\u11b2\u110b\u1173\u11ab \u1109\u1166\u1105\u1169 \u1112\u116a\u1106\u1167\u11ab\u1100\u116a \u1106\u1166\u1102\u1172 ux"
+    },
+    {
+      "label": "Vibe Danmaku \uc138\uc158 \uc0c1\ud0dc \uacbd\uacc4\uc640 XState \uc804\ud658",
+      "file_type": "document",
+      "source_file": "notes/dev/debugging/vibe-danmaku-session-state-boundary.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "notes_dev_debugging_vibe_danmaku_session_state_boundary",
+      "community": 0,
+      "norm_label": "vibe danmaku \u1109\u1166\u1109\u1167\u11ab \u1109\u1161\u11bc\u1110\u1162 \u1100\u1167\u11bc\u1100\u1168\u110b\u116a xstate \u110c\u1165\u11ab\u1112\u116a\u11ab"
+    },
+    {
+      "label": "Vibe Danmaku \uc2a4\ud14c\uc774\uc9c0 \uc774\ubca4\ud2b8 \ud0c0\uc784\ub77c\uc778\uacfc \ubcf4\uc2a4 FSM",
+      "file_type": "document",
+      "source_file": "notes/dev/debugging/vibe-danmaku-stage-events-and-boss-fsm.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "notes_dev_debugging_vibe_danmaku_stage_events_and_boss_fsm",
+      "community": 0,
+      "norm_label": "vibe danmaku \u1109\u1173\u1110\u1166\u110b\u1175\u110c\u1175 \u110b\u1175\u1107\u1166\u11ab\u1110\u1173 \u1110\u1161\u110b\u1175\u11b7\u1105\u1161\u110b\u1175\u11ab\u1100\u116a \u1107\u1169\u1109\u1173 fsm"
+    },
+    {
+      "label": "Vibe Danmaku \ud2b8\ub7ec\ube14\uc288\ud305\uacfc \uae30\uc220 \ud310\ub2e8 \uac1c\uc694",
+      "file_type": "document",
+      "source_file": "notes/dev/debugging/vibe-danmaku-troubleshooting-and-technical-decisions.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "notes_dev_debugging_vibe_danmaku_troubleshooting_and_technical_decisions",
+      "community": 0,
+      "norm_label": "vibe danmaku \u1110\u1173\u1105\u1165\u1107\u1173\u11af\u1109\u1172\u1110\u1175\u11bc\u1100\u116a \u1100\u1175\u1109\u116e\u11af \u1111\u1161\u11ab\u1103\u1161\u11ab \u1100\u1162\u110b\u116d"
+    },
+    {
+      "label": "Vibe Danmaku worktree\uc640 \uac80\uc99d \uc911\uc2ec Git \ud750\ub984",
+      "file_type": "document",
+      "source_file": "notes/dev/debugging/vibe-danmaku-worktree-verification-workflow.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "notes_dev_debugging_vibe_danmaku_worktree_verification_workflow",
+      "community": 0,
+      "norm_label": "vibe danmaku worktree\u110b\u116a \u1100\u1165\u11b7\u110c\u1173\u11bc \u110c\u116e\u11bc\u1109\u1175\u11b7 git \u1112\u1173\u1105\u1173\u11b7"
     },
     {
       "label": "\ucf54\ub4dc \ub9ac\ubdf0\ub97c \uc704\ud55c \ucee4\ubc0b \ud06c\uae30",
@@ -91,7 +208,7 @@
       "author": null,
       "contributor": null,
       "id": "notes_dev_tooling_code_review_commit_sizing",
-      "community": 1,
+      "community": 3,
       "norm_label": "\u110f\u1169\u1103\u1173 \u1105\u1175\u1107\u1172\u1105\u1173\u11af \u110b\u1171\u1112\u1161\u11ab \u110f\u1165\u1106\u1175\u11ba \u110f\u1173\u1100\u1175"
     },
     {
@@ -104,8 +221,21 @@
       "author": null,
       "contributor": null,
       "id": "notes_dev_tooling_deployment_rollforward_vs_rollback",
-      "community": 0,
+      "community": 2,
       "norm_label": "\u1105\u1169\u11af\u1111\u1169\u110b\u116f\u1103\u1173\u110b\u116a \u1105\u1169\u11af\u1107\u1162\u11a8"
+    },
+    {
+      "label": "KMP Compose \uc6cc\ud06c\ud2b8\ub9ac \ub85c\uceec \uc2e4\ud589 \uc138\ud305",
+      "file_type": "document",
+      "source_file": "notes/dev/tooling/kmp-compose-worktree-local-run-setup.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "notes_dev_tooling_kmp_compose_worktree_local_run_setup",
+      "community": 1,
+      "norm_label": "kmp compose \u110b\u116f\u110f\u1173\u1110\u1173\u1105\u1175 \u1105\u1169\u110f\u1165\u11af \u1109\u1175\u11af\u1112\u1162\u11bc \u1109\u1166\u1110\u1175\u11bc"
     },
     {
       "label": "Windows\uc5d0\uc11c KMP Compose\uc6a9 JDK 21 \uc6b4\uc601",
@@ -117,7 +247,7 @@
       "author": null,
       "contributor": null,
       "id": "notes_dev_tooling_windows_jdk_21_for_kmp_compose",
-      "community": 2,
+      "community": 1,
       "norm_label": "windows\u110b\u1166\u1109\u1165 kmp compose\u110b\u116d\u11bc jdk 21 \u110b\u116e\u11ab\u110b\u1167\u11bc"
     },
     {
@@ -130,7 +260,7 @@
       "author": null,
       "contributor": null,
       "id": "notes_dev_version_control_git_cherry_pick_vs_revert",
-      "community": 1,
+      "community": 3,
       "norm_label": "git \u110e\u1166\u1105\u1175\u1111\u1175\u11a8\u1100\u116a \u1105\u1175\u1107\u1165\u1110\u1173"
     },
     {
@@ -143,7 +273,7 @@
       "author": null,
       "contributor": null,
       "id": "notes_dev_version_control_git_conflict_resolution_checklist",
-      "community": 1,
+      "community": 3,
       "norm_label": "git \u110e\u116e\u11bc\u1103\u1169\u11af \u1112\u1162\u1100\u1167\u11af \u110e\u1166\u110f\u1173\u1105\u1175\u1109\u1173\u1110\u1173"
     },
     {
@@ -156,7 +286,7 @@
       "author": null,
       "contributor": null,
       "id": "notes_dev_version_control_git_rebase_basics",
-      "community": 1,
+      "community": 3,
       "norm_label": "git \u1105\u1175\u1107\u1166\u110b\u1175\u1109\u1173 \u1100\u1175\u110e\u1169"
     },
     {
@@ -182,7 +312,7 @@
       "author": null,
       "contributor": null,
       "id": "notes_hubs_development_wiki_index",
-      "community": 2,
+      "community": 1,
       "norm_label": "\u1100\u1162\u1107\u1161\u11af \u110b\u1171\u110f\u1175 \u110b\u1175\u11ab\u1103\u1166\u11a8\u1109\u1173"
     },
     {
@@ -195,7 +325,7 @@
       "author": null,
       "contributor": null,
       "id": "notes_hubs_version_control_collaboration_hub",
-      "community": 1,
+      "community": 3,
       "norm_label": "\u1107\u1165\u110c\u1165\u11ab\u1100\u116a\u11ab\u1105\u1175\u110b\u116a \u1112\u1167\u11b8\u110b\u1165\u11b8 \u1112\u1165\u1107\u1173"
     },
     {
@@ -208,7 +338,7 @@
       "author": null,
       "contributor": null,
       "id": "notes_inbox_readme",
-      "community": 3,
+      "community": 4,
       "norm_label": "inbox"
     },
     {
@@ -221,7 +351,7 @@
       "author": null,
       "contributor": null,
       "id": "notes_meta_atomic_note_template",
-      "community": 2,
+      "community": 1,
       "norm_label": "atomic note template"
     },
     {
@@ -247,7 +377,7 @@
       "author": null,
       "contributor": null,
       "id": "notes_meta_graph_output_lifecycle",
-      "community": 2,
+      "community": 1,
       "norm_label": "graph output lifecycle"
     },
     {
@@ -260,7 +390,7 @@
       "author": null,
       "contributor": null,
       "id": "notes_meta_graphify_wiki_overview",
-      "community": 2,
+      "community": 1,
       "norm_label": "graphify wiki overview"
     }
   ],
@@ -437,6 +567,42 @@
       "relation": "references",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
+      "source_file": "notes/dev/debugging/kmp-compose-workshop-project-sqldelight-npe.md",
+      "source_location": null,
+      "weight": 1.0,
+      "_src": "notes_dev_debugging_kmp_compose_workshop_project_sqldelight_npe",
+      "_tgt": "notes_dev_debugging_repro_first_debugging",
+      "source": "notes_dev_debugging_kmp_compose_workshop_project_sqldelight_npe",
+      "target": "notes_dev_debugging_repro_first_debugging"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "notes/dev/debugging/kmp-compose-workshop-project-sqldelight-npe.md",
+      "source_location": null,
+      "weight": 1.0,
+      "_src": "notes_dev_debugging_kmp_compose_workshop_project_sqldelight_npe",
+      "_tgt": "notes_dev_tooling_kmp_compose_worktree_local_run_setup",
+      "source": "notes_dev_debugging_kmp_compose_workshop_project_sqldelight_npe",
+      "target": "notes_dev_tooling_kmp_compose_worktree_local_run_setup"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "notes/dev/debugging/kmp-compose-workshop-project-sqldelight-npe.md",
+      "source_location": null,
+      "weight": 1.0,
+      "_src": "notes_dev_debugging_kmp_compose_workshop_project_sqldelight_npe",
+      "_tgt": "notes_hubs_debugging_operations_hub",
+      "source": "notes_dev_debugging_kmp_compose_workshop_project_sqldelight_npe",
+      "target": "notes_hubs_debugging_operations_hub"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
       "source_file": "notes/dev/debugging/local-note-copilot-rn-expo-troubleshooting.md",
       "source_location": null,
       "weight": 1.0,
@@ -485,6 +651,30 @@
       "relation": "references",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
+      "source_file": "notes/dev/debugging/vibe-danmaku-generated-assets-and-preload-pipeline.md",
+      "source_location": null,
+      "weight": 1.0,
+      "_src": "notes_dev_debugging_vibe_danmaku_generated_assets_and_preload_pipeline",
+      "_tgt": "notes_dev_debugging_logging_metrics_tracing",
+      "source": "notes_dev_debugging_logging_metrics_tracing",
+      "target": "notes_dev_debugging_vibe_danmaku_generated_assets_and_preload_pipeline"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "notes/dev/debugging/vibe-danmaku-troubleshooting-and-technical-decisions.md",
+      "source_location": null,
+      "weight": 1.0,
+      "_src": "notes_dev_debugging_vibe_danmaku_troubleshooting_and_technical_decisions",
+      "_tgt": "notes_dev_debugging_logging_metrics_tracing",
+      "source": "notes_dev_debugging_logging_metrics_tracing",
+      "target": "notes_dev_debugging_vibe_danmaku_troubleshooting_and_technical_decisions"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
       "source_file": "notes/hubs/debugging-operations-hub.md",
       "source_location": null,
       "weight": 1.0,
@@ -521,6 +711,42 @@
       "relation": "references",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
+      "source_file": "notes/dev/debugging/vibe-danmaku-battle-pacing-runtime-debugging.md",
+      "source_location": null,
+      "weight": 1.0,
+      "_src": "notes_dev_debugging_vibe_danmaku_battle_pacing_runtime_debugging",
+      "_tgt": "notes_dev_debugging_repro_first_debugging",
+      "source": "notes_dev_debugging_repro_first_debugging",
+      "target": "notes_dev_debugging_vibe_danmaku_battle_pacing_runtime_debugging"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "notes/dev/debugging/vibe-danmaku-responsive-menu-ux.md",
+      "source_location": null,
+      "weight": 1.0,
+      "_src": "notes_dev_debugging_vibe_danmaku_responsive_menu_ux",
+      "_tgt": "notes_dev_debugging_repro_first_debugging",
+      "source": "notes_dev_debugging_repro_first_debugging",
+      "target": "notes_dev_debugging_vibe_danmaku_responsive_menu_ux"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "notes/dev/debugging/vibe-danmaku-troubleshooting-and-technical-decisions.md",
+      "source_location": null,
+      "weight": 1.0,
+      "_src": "notes_dev_debugging_vibe_danmaku_troubleshooting_and_technical_decisions",
+      "_tgt": "notes_dev_debugging_repro_first_debugging",
+      "source": "notes_dev_debugging_repro_first_debugging",
+      "target": "notes_dev_debugging_vibe_danmaku_troubleshooting_and_technical_decisions"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
       "source_file": "notes/hubs/debugging-operations-hub.md",
       "source_location": null,
       "weight": 1.0,
@@ -552,6 +778,294 @@
       "_tgt": "notes_dev_debugging_repro_first_debugging",
       "source": "notes_dev_debugging_repro_first_debugging",
       "target": "notes_hubs_version_control_collaboration_hub"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "notes/dev/debugging/vibe-danmaku-battle-pacing-runtime-debugging.md",
+      "source_location": null,
+      "weight": 1.0,
+      "_src": "notes_dev_debugging_vibe_danmaku_battle_pacing_runtime_debugging",
+      "_tgt": "notes_dev_debugging_vibe_danmaku_stage_events_and_boss_fsm",
+      "source": "notes_dev_debugging_vibe_danmaku_battle_pacing_runtime_debugging",
+      "target": "notes_dev_debugging_vibe_danmaku_stage_events_and_boss_fsm"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "notes/dev/debugging/vibe-danmaku-battle-pacing-runtime-debugging.md",
+      "source_location": null,
+      "weight": 1.0,
+      "_src": "notes_dev_debugging_vibe_danmaku_battle_pacing_runtime_debugging",
+      "_tgt": "notes_dev_debugging_vibe_danmaku_troubleshooting_and_technical_decisions",
+      "source": "notes_dev_debugging_vibe_danmaku_battle_pacing_runtime_debugging",
+      "target": "notes_dev_debugging_vibe_danmaku_troubleshooting_and_technical_decisions"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "notes/hubs/debugging-operations-hub.md",
+      "source_location": null,
+      "weight": 1.0,
+      "_src": "notes_hubs_debugging_operations_hub",
+      "_tgt": "notes_dev_debugging_vibe_danmaku_battle_pacing_runtime_debugging",
+      "source": "notes_dev_debugging_vibe_danmaku_battle_pacing_runtime_debugging",
+      "target": "notes_hubs_debugging_operations_hub"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "notes/dev/debugging/vibe-danmaku-generated-assets-and-preload-pipeline.md",
+      "source_location": null,
+      "weight": 1.0,
+      "_src": "notes_dev_debugging_vibe_danmaku_generated_assets_and_preload_pipeline",
+      "_tgt": "notes_dev_debugging_vibe_danmaku_r3f_boss_rendering_troubleshooting",
+      "source": "notes_dev_debugging_vibe_danmaku_generated_assets_and_preload_pipeline",
+      "target": "notes_dev_debugging_vibe_danmaku_r3f_boss_rendering_troubleshooting"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "notes/dev/debugging/vibe-danmaku-generated-assets-and-preload-pipeline.md",
+      "source_location": null,
+      "weight": 1.0,
+      "_src": "notes_dev_debugging_vibe_danmaku_generated_assets_and_preload_pipeline",
+      "_tgt": "notes_dev_debugging_vibe_danmaku_troubleshooting_and_technical_decisions",
+      "source": "notes_dev_debugging_vibe_danmaku_generated_assets_and_preload_pipeline",
+      "target": "notes_dev_debugging_vibe_danmaku_troubleshooting_and_technical_decisions"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "notes/hubs/debugging-operations-hub.md",
+      "source_location": null,
+      "weight": 1.0,
+      "_src": "notes_hubs_debugging_operations_hub",
+      "_tgt": "notes_dev_debugging_vibe_danmaku_generated_assets_and_preload_pipeline",
+      "source": "notes_dev_debugging_vibe_danmaku_generated_assets_and_preload_pipeline",
+      "target": "notes_hubs_debugging_operations_hub"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "notes/dev/debugging/vibe-danmaku-r3f-boss-rendering-troubleshooting.md",
+      "source_location": null,
+      "weight": 1.0,
+      "_src": "notes_dev_debugging_vibe_danmaku_r3f_boss_rendering_troubleshooting",
+      "_tgt": "notes_dev_debugging_vibe_danmaku_stage_events_and_boss_fsm",
+      "source": "notes_dev_debugging_vibe_danmaku_r3f_boss_rendering_troubleshooting",
+      "target": "notes_dev_debugging_vibe_danmaku_stage_events_and_boss_fsm"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "notes/dev/debugging/vibe-danmaku-r3f-boss-rendering-troubleshooting.md",
+      "source_location": null,
+      "weight": 1.0,
+      "_src": "notes_dev_debugging_vibe_danmaku_r3f_boss_rendering_troubleshooting",
+      "_tgt": "notes_dev_debugging_vibe_danmaku_troubleshooting_and_technical_decisions",
+      "source": "notes_dev_debugging_vibe_danmaku_r3f_boss_rendering_troubleshooting",
+      "target": "notes_dev_debugging_vibe_danmaku_troubleshooting_and_technical_decisions"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "notes/hubs/debugging-operations-hub.md",
+      "source_location": null,
+      "weight": 1.0,
+      "_src": "notes_hubs_debugging_operations_hub",
+      "_tgt": "notes_dev_debugging_vibe_danmaku_r3f_boss_rendering_troubleshooting",
+      "source": "notes_dev_debugging_vibe_danmaku_r3f_boss_rendering_troubleshooting",
+      "target": "notes_hubs_debugging_operations_hub"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "notes/dev/debugging/vibe-danmaku-responsive-menu-ux.md",
+      "source_location": null,
+      "weight": 1.0,
+      "_src": "notes_dev_debugging_vibe_danmaku_responsive_menu_ux",
+      "_tgt": "notes_dev_debugging_vibe_danmaku_session_state_boundary",
+      "source": "notes_dev_debugging_vibe_danmaku_responsive_menu_ux",
+      "target": "notes_dev_debugging_vibe_danmaku_session_state_boundary"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "notes/dev/debugging/vibe-danmaku-responsive-menu-ux.md",
+      "source_location": null,
+      "weight": 1.0,
+      "_src": "notes_dev_debugging_vibe_danmaku_responsive_menu_ux",
+      "_tgt": "notes_dev_debugging_vibe_danmaku_troubleshooting_and_technical_decisions",
+      "source": "notes_dev_debugging_vibe_danmaku_responsive_menu_ux",
+      "target": "notes_dev_debugging_vibe_danmaku_troubleshooting_and_technical_decisions"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "notes/hubs/debugging-operations-hub.md",
+      "source_location": null,
+      "weight": 1.0,
+      "_src": "notes_hubs_debugging_operations_hub",
+      "_tgt": "notes_dev_debugging_vibe_danmaku_responsive_menu_ux",
+      "source": "notes_dev_debugging_vibe_danmaku_responsive_menu_ux",
+      "target": "notes_hubs_debugging_operations_hub"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "notes/dev/debugging/vibe-danmaku-session-state-boundary.md",
+      "source_location": null,
+      "weight": 1.0,
+      "_src": "notes_dev_debugging_vibe_danmaku_session_state_boundary",
+      "_tgt": "notes_dev_debugging_vibe_danmaku_troubleshooting_and_technical_decisions",
+      "source": "notes_dev_debugging_vibe_danmaku_session_state_boundary",
+      "target": "notes_dev_debugging_vibe_danmaku_troubleshooting_and_technical_decisions"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "notes/dev/debugging/vibe-danmaku-session-state-boundary.md",
+      "source_location": null,
+      "weight": 1.0,
+      "_src": "notes_dev_debugging_vibe_danmaku_session_state_boundary",
+      "_tgt": "notes_dev_debugging_vibe_danmaku_worktree_verification_workflow",
+      "source": "notes_dev_debugging_vibe_danmaku_session_state_boundary",
+      "target": "notes_dev_debugging_vibe_danmaku_worktree_verification_workflow"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "notes/dev/debugging/vibe-danmaku-session-state-boundary.md",
+      "source_location": null,
+      "weight": 1.0,
+      "_src": "notes_dev_debugging_vibe_danmaku_session_state_boundary",
+      "_tgt": "notes_dev_tooling_code_review_commit_sizing",
+      "source": "notes_dev_debugging_vibe_danmaku_session_state_boundary",
+      "target": "notes_dev_tooling_code_review_commit_sizing"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "notes/hubs/debugging-operations-hub.md",
+      "source_location": null,
+      "weight": 1.0,
+      "_src": "notes_hubs_debugging_operations_hub",
+      "_tgt": "notes_dev_debugging_vibe_danmaku_session_state_boundary",
+      "source": "notes_dev_debugging_vibe_danmaku_session_state_boundary",
+      "target": "notes_hubs_debugging_operations_hub"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "notes/dev/debugging/vibe-danmaku-stage-events-and-boss-fsm.md",
+      "source_location": null,
+      "weight": 1.0,
+      "_src": "notes_dev_debugging_vibe_danmaku_stage_events_and_boss_fsm",
+      "_tgt": "notes_dev_debugging_vibe_danmaku_troubleshooting_and_technical_decisions",
+      "source": "notes_dev_debugging_vibe_danmaku_stage_events_and_boss_fsm",
+      "target": "notes_dev_debugging_vibe_danmaku_troubleshooting_and_technical_decisions"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "notes/hubs/debugging-operations-hub.md",
+      "source_location": null,
+      "weight": 1.0,
+      "_src": "notes_hubs_debugging_operations_hub",
+      "_tgt": "notes_dev_debugging_vibe_danmaku_stage_events_and_boss_fsm",
+      "source": "notes_dev_debugging_vibe_danmaku_stage_events_and_boss_fsm",
+      "target": "notes_hubs_debugging_operations_hub"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "notes/dev/debugging/vibe-danmaku-troubleshooting-and-technical-decisions.md",
+      "source_location": null,
+      "weight": 1.0,
+      "_src": "notes_dev_debugging_vibe_danmaku_troubleshooting_and_technical_decisions",
+      "_tgt": "notes_dev_debugging_vibe_danmaku_worktree_verification_workflow",
+      "source": "notes_dev_debugging_vibe_danmaku_troubleshooting_and_technical_decisions",
+      "target": "notes_dev_debugging_vibe_danmaku_worktree_verification_workflow"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "notes/dev/debugging/vibe-danmaku-troubleshooting-and-technical-decisions.md",
+      "source_location": null,
+      "weight": 1.0,
+      "_src": "notes_dev_debugging_vibe_danmaku_troubleshooting_and_technical_decisions",
+      "_tgt": "notes_dev_tooling_code_review_commit_sizing",
+      "source": "notes_dev_debugging_vibe_danmaku_troubleshooting_and_technical_decisions",
+      "target": "notes_dev_tooling_code_review_commit_sizing"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "notes/hubs/debugging-operations-hub.md",
+      "source_location": null,
+      "weight": 1.0,
+      "_src": "notes_hubs_debugging_operations_hub",
+      "_tgt": "notes_dev_debugging_vibe_danmaku_troubleshooting_and_technical_decisions",
+      "source": "notes_dev_debugging_vibe_danmaku_troubleshooting_and_technical_decisions",
+      "target": "notes_hubs_debugging_operations_hub"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "notes/dev/debugging/vibe-danmaku-worktree-verification-workflow.md",
+      "source_location": null,
+      "weight": 1.0,
+      "_src": "notes_dev_debugging_vibe_danmaku_worktree_verification_workflow",
+      "_tgt": "notes_dev_tooling_code_review_commit_sizing",
+      "source": "notes_dev_debugging_vibe_danmaku_worktree_verification_workflow",
+      "target": "notes_dev_tooling_code_review_commit_sizing"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "notes/dev/debugging/vibe-danmaku-worktree-verification-workflow.md",
+      "source_location": null,
+      "weight": 1.0,
+      "_src": "notes_dev_debugging_vibe_danmaku_worktree_verification_workflow",
+      "_tgt": "notes_dev_tooling_kmp_compose_worktree_local_run_setup",
+      "source": "notes_dev_debugging_vibe_danmaku_worktree_verification_workflow",
+      "target": "notes_dev_tooling_kmp_compose_worktree_local_run_setup"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "notes/hubs/debugging-operations-hub.md",
+      "source_location": null,
+      "weight": 1.0,
+      "_src": "notes_hubs_debugging_operations_hub",
+      "_tgt": "notes_dev_debugging_vibe_danmaku_worktree_verification_workflow",
+      "source": "notes_dev_debugging_vibe_danmaku_worktree_verification_workflow",
+      "target": "notes_hubs_debugging_operations_hub"
     },
     {
       "relation": "references",
@@ -647,6 +1161,30 @@
       "_src": "notes_hubs_development_wiki_index",
       "_tgt": "notes_dev_tooling_deployment_rollforward_vs_rollback",
       "source": "notes_dev_tooling_deployment_rollforward_vs_rollback",
+      "target": "notes_hubs_development_wiki_index"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "notes/dev/tooling/kmp-compose-worktree-local-run-setup.md",
+      "source_location": null,
+      "weight": 1.0,
+      "_src": "notes_dev_tooling_kmp_compose_worktree_local_run_setup",
+      "_tgt": "notes_dev_tooling_windows_jdk_21_for_kmp_compose",
+      "source": "notes_dev_tooling_kmp_compose_worktree_local_run_setup",
+      "target": "notes_dev_tooling_windows_jdk_21_for_kmp_compose"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "notes/dev/tooling/kmp-compose-worktree-local-run-setup.md",
+      "source_location": null,
+      "weight": 1.0,
+      "_src": "notes_dev_tooling_kmp_compose_worktree_local_run_setup",
+      "_tgt": "notes_hubs_development_wiki_index",
+      "source": "notes_dev_tooling_kmp_compose_worktree_local_run_setup",
       "target": "notes_hubs_development_wiki_index"
     },
     {

@@ -6,8 +6,8 @@
 
 ### references
 - [[개발 위키 인덱스]] `EXTRACTED`
-- [[로그와 메트릭과 트레이싱]] `EXTRACTED`
 - [[디버깅과 운영 허브]] `EXTRACTED`
+- [[로그와 메트릭과 트레이싱]] `EXTRACTED`
 - [[롤포워드와 롤백]] `EXTRACTED`
 - [[Python asyncio 취소 처리]] `EXTRACTED`
 - [[Postgres 인덱스 선택도]] `EXTRACTED`

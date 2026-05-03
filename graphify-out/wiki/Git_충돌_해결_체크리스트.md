@@ -7,8 +7,8 @@
 ### references
 - [[개발 위키 인덱스]] `EXTRACTED`
 - [[재현 우선 디버깅]] `EXTRACTED`
-- [[버전관리와 협업 허브]] `EXTRACTED`
 - [[코드 리뷰를 위한 커밋 크기]] `EXTRACTED`
+- [[버전관리와 협업 허브]] `EXTRACTED`
 - [[Git 체리픽과 리버트]] `EXTRACTED`
 - [[Git 리베이스 기초]] `EXTRACTED`
 
